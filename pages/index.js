@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
-import NavTwo from "../components/NavTwo";
+import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
-import BannerTwo from "../components/BannerTwo";
+import Banner from "../components/Banner";
 import Features from "../components/Features";
 import Video from "../components/Video";
 import CallToAction from "../components/CallToAction";
@@ -17,11 +17,11 @@ import Subscribe from "../components/Subscribe";
 
 
 
-const HomePageTwo = () => (
+const HomePage = () => (
 
-    <Layout pageTitle="Dimon - Home 2">
-        <NavTwo />
-        <BannerTwo />
+    <Layout pageTitle="Dimon - React Next App Landing Page Template">
+        <NavOne />
+        <Banner />
         <Features />
         <Video />
         <CallToAction />
@@ -39,4 +39,4 @@ const HomePageTwo = () => (
 
 )
 
-export default HomePageTwo;
+export default HomePage;
