@@ -19,7 +19,7 @@ import Subscribe from "../components/Subscribe";
 
 const HomePageTwo = () => (
 
-    <Layout pageTitle="Dimon - Home 2">
+    <Layout pageTitle="Helloo - Home 2">
         <NavTwo />
         <BannerTwo />
         <Features />
